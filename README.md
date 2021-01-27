@@ -1,2 +1,2 @@
 # landing-page
-Stremio landing page website
+Stremio landing page website 
