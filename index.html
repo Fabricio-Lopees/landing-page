@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+	<title>Stremio - All You Can Watch</title>
+</head>
+<style>
+	body{
+		display: flex;
+		flex-direction: column;
+	}
+
+	@media (max-width: 600px){
+		#header-img-txt{
+			overflow: hidden;
+			display: none;
+		}
+		/*Fiquei com preguiça de fazer os media querie mesmo!!! Código está pura gambiarra.*/
+	}
+
+</style>
+<body>
+	<header id="header">
+		<div id="header-logo">
+			<a href="https://www.stremio.com/" target="_blank">
+				<img src="https://i.ibb.co/6HH5zrc/stremio-logo-small.png" alt="stremio-logo-small" id="header-img">
+				<img src="https://i.ibb.co/W0Yvpmz/stremio-txt-logo-small.png" 	alt="stremio-txt-logo-small" id="header-img-txt">
+			</a>
+		</div>
+		<nav id="nav-bar">
+			<ul class="nav-link-ul">
+				<li class="nav-link-li">
+					<a href="#home" class="nav-link">Home</a>
+				</li>
+				<li class="nav-link-li">
+					<a href="#what-is" class="nav-link">What is</a>
+				</li>
+				<li class="nav-link-li">
+					<a href="#join-the-party" class="nav-link">Join the party</a>
+				</li>
+				<li class="nav-link-li">
+					<a href="#get-started" class="nav-link">Get started</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+
+	<section id="home" class="overlay dark">
+		<div class="home-title">
+			<h1>Freedom to watch <br> everything you want</h1>
+		</div>
+		<div class="home-download">
+			<p class="start-download">Start your download</p>
+			<div class="icons-download">
+				<i class="fab fa-windows"></i>
+				<i class="fab fa-apple"></i>
+				<i class="fab fa-linux"></i>
+			</div>
+			<p class="others-download">Others download</p>
+		</div>
+	</section>
+
+	<section id="what-is">
+		<div class="what-is-first-side">
+			<h2>What is stremio?</h2>
+			<p>Stremio is a modern media center that's a one-stop solution for your video entertainment. You discover, watch and organize video content from easy to install addons.</p>
+			<p>Movies, TV shows, live TV or web channels - find all this on Stremio.</p>
+
+			<button id="botao">Get for desktop</button>
+		</div>
+		<div class="what-is-second-side">
+			<img src="https://i.ibb.co/ZYYpnbs/home-stremio.png" alt="home-stremio" border="0">
+		</div>
+	</section>
+
+	<section id="join-the-party">
+		<div class="join-the-party-header">
+			<div class="joint-the-party-header-divone"></div>
+			<div class="join-the-party-header-divtwo">
+				<h2>Join the party now</h2>
+			</div>
+		</div>
+		<div class="join-the-party-body">
+			<div class="join-the-party-img">
+				<img src="https://i.ibb.co/fY20xnp/home-devices.png" alt="home-devices" border="0">
+			</div>
+			<div class="join-the-party-text">
+				<div class="join-the-party-text-container">
+					<ul>
+						<li>Easy to use on all your devices</li>
+						<li>Infinitelly extendable video catalog</li>
+						<li>Great features to organize your media</li>
+					</ul>
+					<div class="platforms">
+							<a href="itms://itunes.apple.com/us/app/apple-store/id987232010?mt=8" target="_blank" rel="nofollow" title="Stremio in the App Store" class="icon btn-ios-download">		</a>
+							<a href="https://play.google.com/store/apps/details?id=com.stremio.one" target="_blank" title="Android" class="icon btn-android-download">				</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="get-started">
+		<div class="get-started-first-side">
+			<h2>Unlimited movies, TV shows, and more.</h2>
+
+			<video id="video" autoplay muted loop>
+				<source src="media/video.mp4" type="video/mp4">
+			</video>
+
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/Jp6PwOwI8_4?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+		<div class="get-started-second-side">
+			<h2>Ready to watch? Enter your email to create or restart your membership.</h2>
+			<form id="form" action="https://www.freecodecamp.com/email-submit)">
+				<input type="email" id="email" name="email" placeholder="Your email">
+				<input type="submit" id="submit" value="Get Started">
+			</form>
+		</div>
+	</section>
+
+	<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>

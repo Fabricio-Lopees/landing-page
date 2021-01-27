@@ -1,2 +1,2 @@
 # landing-page
-Netflix landing page website
+Stremio landing page website
